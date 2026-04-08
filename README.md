@@ -1,11 +1,9 @@
 # Equity Research Draft Generator
-
 A lightweight Python tool that generates structured equity research drafts using publicly available financial data from Yahoo Finance.
 
 This project focuses on automating data collection and structuring, allowing users to spend more time on higher-value analysis rather than manual data gathering.
 
 ## Overview
-
 This tool takes a stock ticker (e.g. AAPL, BHP.AX) and produces a first-pass equity research report including:
 
 Market snapshot (price, market cap, valuation metrics)
@@ -15,7 +13,7 @@ Structured commentary to guide further analysis
 
 It also includes optional interactive charts via a simple Streamlit interface.
 
-Features
+# Features
 Ticker-based report generation using yfinance
 Clean, structured Markdown output
 Interactive UI built with Streamlit
