@@ -3,6 +3,9 @@ A lightweight Python tool that generates structured equity research drafts using
 
 This project focuses on automating data collection and structuring, allowing users to spend more time on higher-value analysis rather than manual data gathering.
 
+## Demo
+![App Screenshot](./Assets_Equity_Research_Tool/demo.png)
+
 ## Overview
 This tool takes a stock ticker (e.g. AAPL, BHP.AX) and produces a first-pass equity research report including:
 - Market snapshot (price, market cap, valuation metrics)
@@ -55,6 +58,8 @@ The tool generates a structured equity research draft in Markdown format, includ
 - Valuation commentary
 - Business overview
 - Supporting charts (if selected)
+See a sample generated report here:  
+[Sample Report](./examples/WES_AX_sample_report.md)
 
 # Limitations
 Relies on Yahoo Finance → some tickers have incomplete data
